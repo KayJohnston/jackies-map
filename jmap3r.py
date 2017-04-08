@@ -3,7 +3,7 @@
 # Kay Johnston 2017 / 3303
 # Thanks are due to everyone who's collected data for the various source lists, and particularly to edsm.
 
-version = '3r'
+version = '3q'
 
 # Standard Python imports.  Might need to change PIL to pillow on some versions of Python?
 from tkinter import *
