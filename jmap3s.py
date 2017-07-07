@@ -4,7 +4,7 @@
 # Thanks are due to everyone who's collected data for the various source lists.
 # Special thanks to Lucienn and Anthor for beacon data and edsm landmarks.
 
-version = '3s'
+version = '3s2'
 
 # Standard Python imports.  Might need to change PIL to pillow on some versions of Python?
 from tkinter import *
@@ -95,8 +95,9 @@ import pgnames
 # 3r2,3r3,+ changes:
 # Added Generation Ship bubble extent.  Added various extra landmarks, updated tourist beacons &c.
 
-# 3s changes:
+# 3s,3s2 changes:
 # Started integrating edsm landmarks.  Added option to toggle drawing all POI or all POI that aren't landmarks/jumponium, to cut down clutter.
+# Added a load of new Thargoid sites.
 
 class App():
 
@@ -694,7 +695,7 @@ class App():
         self.draw.line(((XDIM/2 - x_axis,0),(XDIM/2 - x_axis,YDIM)), fill = 'gray', width = 1)
         self.draw.line(((0,YDIM/2 + y_axis),(XDIM,YDIM/2 + y_axis)), fill = 'gray', width = 1)
 
-        # Want to draw the UA sphere.
+        # Want to draw the UA sphere.  (UA shell.)
         if self.draw_misc.get() == 1:
             cp_x = -78.6 - self.x_offset
             cp_y = -340.5 - self.y_offset
