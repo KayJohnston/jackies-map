@@ -4,7 +4,7 @@
 # Thanks are due to everyone who's collected data for the various source lists.
 # Special thanks to Lucienn and Anthor for beacon data and edsm landmarks.
 
-version = '3s2'
+version = '3s3'
 
 # Standard Python imports.  Might need to change PIL to pillow on some versions of Python?
 from tkinter import *
@@ -95,9 +95,10 @@ import pgnames
 # 3r2,3r3,+ changes:
 # Added Generation Ship bubble extent.  Added various extra landmarks, updated tourist beacons &c.
 
-# 3s,3s2 changes:
+# 3s,3s2,3s3 changes:
 # Started integrating edsm landmarks.  Added option to toggle drawing all POI or all POI that aren't landmarks/jumponium, to cut down clutter.
-# Added a load of new Thargoid sites.
+# Added a load of new Thargoid sites.  Added more megaships.
+# Updated list of Guardians ruins and adopted Canonn's numbering system.
 
 class App():
 
